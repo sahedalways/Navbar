@@ -1,0 +1,31 @@
+{
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Dracula",
+  "editor.cursorBlinking": "smooth",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "editor.fontSize": 16,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggestionActions.enabled": false,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "editor.accessibilitySupport": "off",
+
+  // liveSass setup
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/dist"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": true
+}
